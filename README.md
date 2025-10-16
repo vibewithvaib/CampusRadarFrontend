@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# 🖥️ CampusRadar - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/Frontend-React%2018-blue?style=for-the-badge&logo=react)
+![TailwindCSS](https://img.shields.io/badge/Style-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
+![Axios](https://img.shields.io/badge/API-Axios-orange?style=for-the-badge&logo=axios)
+![JWT](https://img.shields.io/badge/Auth-JWT-yellow?style=for-the-badge&logo=jsonwebtokens)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧭 Overview
 
-### `npm start`
+Welcome to the **frontend for CampusRadar**!  
+This is a **modern, single-page application (SPA)** built with **React** that powers the user interface for our **AI-driven internship portal**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+CampusRadar connects **Students**, **Recruiters**, and **Administrators** — providing an intelligent, responsive, and smooth experience powered by the CampusRadar Backend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Core Features (UI/UX)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔐 Seamless Authentication
+- Simple, modern pages for registration & login  
+- Secure JWT-based authentication with proper token handling  
 
-### `npm run build`
+### 🧑‍🎓 Student Dashboard
+- View and edit personal profiles  
+- Track internship applications and statuses in real time  
+- Get AI-powered **personalized internship recommendations**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🧑‍💼 Recruiter Dashboard
+- Post, edit, and manage internships  
+- View and manage applicants  
+- Use the **AI Shortlist** feature to automatically shortlist best-fit candidates  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧑‍💼 Admin Dashboard
+- Central control panel for user and internship approvals  
+- Manage platform-level access and approvals with ease  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ⚙️ Additional UI Features
+- Interactive profile management for both Students & Recruiters  
+- Drill-down views for internship and user details  
+- Real-time feedback (loaders, toasts, and error messages) for every API action  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Feature | Technology |
+|----------|-------------|
+| **Framework** | React 18 + Vite |
+| **Routing** | React Router v6 |
+| **Styling** | Tailwind CSS |
+| **API Communication** | Axios |
+| **State Management** | React Context API |
+| **JWT Handling** | jwt-decode |
+| **Backend API** | CampusRadar Backend (Spring Boot 3) |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ⚙️ Local Setup & Installation
 
-## Learn More
+Follow these steps to run the frontend locally.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🧩 Prerequisites
+- Node.js **v18 or newer**
+- npm (comes with Node)
+- CampusRadar Backend running on `localhost:8081`
+- Python AI Service running on `localhost:5001`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
